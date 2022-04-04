@@ -1,10 +1,16 @@
-import logo from './logo.svg';
+import HeartList from './components/HeartsList';
+import Header from './components/Header';
 import './App.css';
 
 const message = 'cool cud';
-
 function App() {
-  return <div>{message}</div>;  
+  return (
+  <>
+  <Header></Header>
+    <HeartList/>
+    </>
+  );
 }
 
 export default App;
+
